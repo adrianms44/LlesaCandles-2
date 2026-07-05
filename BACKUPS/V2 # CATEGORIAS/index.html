@@ -1,0 +1,742 @@
+<!--
+=========================================
+LLESA CANDLES
+Archivo: index.html
+Versión: 1.0
+Última actualización: 04/07/2026
+=========================================
+-->
+
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <!-- CONFIGURACIÓN GENERAL -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Llesa Candles | Velas Artesanales</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FUENTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ===================================== -->
+    <!-- CABECERA -->
+    <!-- ===================================== -->
+
+    <header id="inicio">
+
+        <!-- LOGO -->
+        <img src="img/logo.jpg.jpg" class="logo">
+
+        <!-- NOMBRE -->
+        <h1>Llesa Candles</h1>
+
+        <!-- ESLOGAN -->
+        <p class="subtitulo">
+            Velas aromáticas artesanales hechas con amor
+        </p>
+
+    </header>
+
+
+    <!-- ===================================== -->
+    <!-- MENÚ -->
+    <!-- ===================================== -->
+
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#nosotros">Nosotras</a>
+
+        <a href="#catalogo">Catálogo</a>
+
+        <a href="#personalizadas">Personalizadas</a>
+
+        <a href="#opiniones">Opiniones</a>
+
+        <a href="#faq">FAQ</a>
+
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+
+    <!-- ===================================== -->
+    <!-- PORTADA -->
+    <!-- ===================================== -->
+
+    <section class="hero">
+
+        <div class="hero-box">
+
+            <h2>
+                Descubre el aroma de los pequeños momentos
+            </h2>
+
+            <p>
+                Velas artesanales y wax melts elaborados
+                a mano con ingredientes de calidad.
+            </p>
+
+            <a href="#catalogo" class="hero-boton">
+            Ver catálogo
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- ===================================== -->
+    <!-- PRODUCTOS DESTACADOS -->
+    <!-- ===================================== -->
+
+<section id="catalogo">
+
+    <h2>Nuestros productos</h2>
+
+    <!-- FILTROS -->
+
+    <div class="filtros">
+
+        <button class="filtro activo"
+                onclick="filtrar('todos')">
+            TODOS
+        </button>
+
+        <button class="filtro"
+                onclick="filtrar('wax')">
+            🌸 WAX MELTS
+        </button>
+
+        <button class="filtro"
+                onclick="filtrar('vela')">
+            🕯️ VELAS
+        </button>
+
+    </div>
+
+
+    <!-- ==================== -->
+    <!-- WAX MELTS -->
+    <!-- ==================== -->
+
+    <h3 class="categoria" id="titulo-wax">
+        🌸 Wax Melts
+    </h3>
+
+    <div class="productos wax">
+
+        <!-- ===================================== -->
+        <!-- WAX MELT 01 -->
+        <!-- ===================================== -->
+        <div class="producto wax">
+
+            <img src="img/productos/producto1.png">
+
+            <h3>Ropa Limpia / Spa</h3>
+
+            <p>
+                Wax melt artesanal con aroma
+                fresco y duradero.
+            </p>
+
+                <!-- TAMAÑO -->
+
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+                <option>
+            50 gramos - 6,50 €
+            </option>
+
+            <option selected>
+            90 gramos - 9,00 €
+             </option>
+
+             </select>
+
+        </div>
+
+
+        <!-- ===================================== -->
+        <!-- WAX MELT 02 -->
+        <!-- ===================================== -->
+        <div class="producto wax">
+
+            <img src="img/productos/producto2.jpg">
+
+            <h3>Lavanda</h3>
+
+            <p>
+                Añadir descripción.
+            </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                60 gramos - PRECIO €
+            </option>
+
+            <option selected>
+                90 gramos - PRECIO €
+            </option>
+
+            </select>
+            
+
+        </div>
+
+
+        <!-- ===================================== -->
+        <!-- WAX MELT 03 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/nombre-imagen.jpg">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Nenuco</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Descripción del aroma.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                60 gramos - PRECIO €
+            </option>
+
+            <option selected>
+                90 gramos - PRECIO €
+            </option>
+
+            </select>
+            
+        </div>
+
+            <!-- ===================================== -->
+        <!-- WAX MELT 04 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/nombre-imagen.jpg">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Sandalo</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Descripción del aroma.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                60 gramos - PRECIO €
+            </option>
+
+            <option selected>
+                90 gramos - PRECIO €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 05 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/nombre-imagen.jpg">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Incienso</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Descripción del aroma.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                60 gramos - PRECIO €
+            </option>
+
+            <option selected>
+                90 gramos - PRECIO €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 06 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/nombre-imagen.jpg">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Chocolate</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Descripción del aroma.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                60 gramos - PRECIO €
+            </option>
+
+            <option selected>
+                90 gramos - PRECIO €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 07 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/nombre-imagen.jpg">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Canela</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Descripción del aroma.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                60 gramos - PRECIO €
+            </option>
+
+            <option selected>
+                90 gramos - PRECIO €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 08 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/nombre-imagen.jpg">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Vainilla</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Descripción del aroma.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                60 gramos - PRECIO €
+            </option>
+
+            <option selected>
+                90 gramos - PRECIO €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 09 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/nombre-imagen.jpg">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Galleta</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Descripción del aroma.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                60 gramos - PRECIO €
+            </option>
+
+            <option selected>
+                90 gramos - PRECIO €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 10 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/nombre-imagen.jpg">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Café</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Descripción del aroma.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                60 gramos - PRECIO €
+            </option>
+
+            <option selected>
+                90 gramos - PRECIO €
+            </option>
+
+            </select>
+            
+        </div>
+
+        
+        <!-- ===================================== -->
+        <!-- WAX MELT 11 PROXIMAMENTE -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <div class="proximamente">
+                 PRÓXIMAMENTE
+            </div>
+
+                <img src="img/productos/proximo.jpg">
+
+             <h3>Canela y Vainilla</h3>
+
+                 <p>
+                    Nuevo aroma en preparación.
+                </p>
+
+        </div>
+
+
+
+ 
+</div>
+    </div>
+
+
+    <!-- ==================== -->
+    <!-- VELAS -->
+    <!-- ==================== -->
+
+    <h3 class="categoria" id="titulo-vela">
+        🕯️ Velas Aromáticas
+    </h3>
+
+    <div class="productos vela">
+
+        <div class="producto vela">
+
+            <img src="img/productos/vela1.jpg">
+
+            <h3>Próxima vela</h3>
+
+            <p>
+                Añadir descripción.
+            </p>
+
+            <span>Precio</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ===================================== -->
+    <!-- QUIÉNES SOMOS -->
+    <!-- ===================================== -->
+
+    <section id="nosotros">
+
+        <h2>Quiénes somos</h2>
+
+        <p>
+            ESCRIBIR LA HISTORIA
+        </p>
+
+    </section>
+
+
+        <!-- ===================================== -->
+                 <!-- PERSONALIZADAS -->
+        <!-- ===================================== -->
+        <!-- AÑADIR AQUÍ FUTURAS COMUNIONES, BODAS,
+        BAUTIZOS Y EVENTOS -->
+        <!-- ===================================== -->
+
+<section id="personalizadas">
+
+    <h2>Velas personalizadas</h2>
+
+    <p class="texto-personalizadas">
+        Creamos velas y detalles personalizados para
+        bautizos, comuniones, bodas, cumpleaños y eventos especiales.
+        Aquí os mostramos algunos de nuestros trabajos realizados.
+    </p>
+
+    <div class="galeria-personalizadas">
+
+        <!-- TRABAJO 1 - COMUNIÓN -->
+
+        <div class="trabajo">
+
+            <img src="img/Personalizadas/per1.jpeg">
+
+            <h3>Detalles para Comunión</h3>
+
+            <p>
+                Velas artesanales personalizadas realizadas
+                para una celebración de comunión.
+            </p>
+
+        </div>
+
+        <!-- TRABAJO 2 - BAUTIZO-->
+
+        <div class="trabajo">
+
+            <img src="img/Personalizadas/per2.jpeg">
+
+            <h3>Detalles para Bautizos</h3>
+
+            <p>
+               
+                Velas artesanales personalizadas realizadas
+                para una celebración de bautizos.           
+            
+            </p>
+
+        </div>
+        
+
+    </div>
+
+</section>
+
+
+    <!-- ===================================== -->
+    <!-- OPINIONES -->
+    <!-- ===================================== -->
+
+    <section id="opiniones">
+
+        <h2>Opiniones</h2>
+
+        <div class="review">
+
+            ⭐⭐⭐⭐⭐
+
+            <p>
+                "Huelen increíble y duran muchísimo."
+            </p>
+
+        </div>
+
+        <div class="review">
+
+            ⭐⭐⭐⭐⭐
+
+            <p>
+                "El mejor aroma a ropa limpia."
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===================================== -->
+    <!-- FAQ -->
+    <!-- ===================================== -->
+
+    <section id="faq">
+
+        <h2>Preguntas frecuentes</h2>
+
+        <details>
+            <summary>
+                ¿Las velas son naturales?
+            </summary>
+
+            <p>
+                Sí, utilizamos cera de soja.
+            </p>
+        </details>
+
+        <details>
+            <summary>
+                ¿Realizáis envíos?
+            </summary>
+
+            <p>
+                Sí, realizamos envíos nacionales.
+            </p>
+        </details>
+
+    </section>
+
+
+    <!-- ===================================== -->
+    <!-- CONTACTO -->
+    <!-- ===================================== -->
+
+<section id="contacto">
+
+    <h2>Contacto</h2>
+
+    <div class="contacto-card">
+
+        <p>
+            📞 <strong>WhatsApp:</strong>
+            <a href="https://wa.me/34642931215">
+                +34 642 931 215
+            </a>
+        </p>
+
+        <p>
+            📸 <strong>Instagram:</strong>
+            <a href="https://instagram.com/llesacandles_">
+                @llesacandles_
+            </a>
+        </p>
+
+        <hr>
+
+        <h3>
+            🕒 Horario de atención al cliente
+        </h3>
+
+        <p>
+            <strong>Lunes a Viernes:</strong><br>
+            10:00 - 14:00<br>
+            16:00 - 19:00
+        </p>
+
+        <p>
+            <strong>Sábados:</strong><br>
+            10:00 - 13:00
+        </p>
+
+        <p>
+            <strong>Domingos y festivos:</strong><br>
+            Cerrado
+        </p>
+
+        <p class="nota">
+            Intentamos responder a todos los mensajes
+            en menos de 24 horas.
+        </p>
+
+    </div>
+
+</section>
+
+    <!-- ===================================== -->
+    <!-- FOOTER -->
+    <!-- ===================================== -->
+
+    <footer>
+
+        © 2026 Llesa Candles
+
+    </footer>
+
+    <a href="https://wa.me/34642931215?text=Hola,%20me%20gustaría%20información%20sobre%20Llesa%20Candles"
+   class="whatsapp"  target="_blank">
+
+    💬
+    </a>
+    
+<script src="script.js"></script>
+    
+</body>
+</html>

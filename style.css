@@ -725,3 +725,169 @@ nav a:hover{
 
     color:white;
 }
+
+/*PRODUCTOS LIMIADOS*/
+
+.producto.limitado{
+
+    border:2px solid #ff0000;
+
+    box-shadow:0 10px 25px rgba(255, 0, 0, 0.623);
+}
+
+.limitada{
+
+    background:#f36161;
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    display:inline-block;
+
+    font-size:12px;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+}
+.aviso{
+
+    color:#4caf50;;
+
+    font-size:14px;
+
+    font-weight:bold;
+
+    margin-top:10px;
+}
+
+/*PRODUCTOS ESTACIONALES*/
+
+.badge{
+
+    display:inline-block;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+}
+
+
+.producto-estacional{
+
+    border:2px solid #e27c07;
+
+    box-shadow:0 10px 25px rgba(76,175,80,.2);
+}
+
+.estacional{
+
+    background:#d4a373;
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    display:inline-block;
+
+    font-size:12px;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+}
+
+/*QUIENES SOMOS*/
+
+.historia{
+    background:#fffaf4;
+    padding:90px 20px;
+}
+
+.historia-container{
+    max-width:1200px;
+    width:90%;
+    margin:auto;
+    background:white;
+    padding:45px 60px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.intro{
+
+    font-size:24px;
+
+    line-height:1.9;
+
+}
+
+.historia h1{
+
+    font-size:42px;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    color:#4d4339;
+
+    margin-bottom:35px;
+
+    text-align:center;
+
+}
+.historia h1::after{
+
+    content:"";
+
+    display:block;
+
+    width:90px;
+
+    height:3px;
+
+    background:#c89b62;
+
+    margin:18px auto 0;
+
+    border-radius:50px;
+
+}
+
+.historia h2{
+    font-size:42px;
+    color:#333;
+    margin-bottom:30px;
+    font-family:Georgia, serif;
+}
+
+.historia p{
+    font-size:17px;
+    line-height:2;
+    color:#555;
+    margin-bottom:30px;
+    text-align:justify;
+}
+
+.historia blockquote{
+    margin-top:50px;
+    text-align:center;
+    font-size:28px;
+    color:#b98b55;
+    font-style:italic;
+    font-family:Georgia, serif;
+    border-top:1px solid #e6d8c7;
+    padding-top:35px;
+}

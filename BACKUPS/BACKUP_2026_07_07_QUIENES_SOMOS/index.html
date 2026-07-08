@@ -1,0 +1,1335 @@
+<!--
+=========================================
+LLESA CANDLES
+Archivo: index.html
+Versión: 1.0
+Última actualización: 04/07/2026
+=========================================
+-->
+
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <!-- CONFIGURACIÓN GENERAL -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Llesa Candles | Velas Artesanales</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FUENTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ===================================== -->
+    <!-- CABECERA -->
+    <!-- ===================================== -->
+
+    <header id="inicio">
+
+        <!-- LOGO -->
+        <img src="img/logo.jpg.jpg" class="logo">
+
+        <!-- NOMBRE -->
+        <h1>Llesa Candles</h1>
+
+        <!-- ESLOGAN -->
+        <p class="subtitulo">
+            Velas aromáticas artesanales hechas con amor
+        </p>
+
+    </header>
+
+
+    <!-- ===================================== -->
+    <!-- MENÚ -->
+    <!-- ===================================== -->
+
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#nosotros">Nosotras</a>
+
+        <a href="#catalogo">Catálogo</a>
+
+        <a href="#personalizadas">Personalizadas</a>
+
+        <a href="#opiniones">Opiniones</a>
+
+        <a href="#faq">FAQ</a>
+
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+
+    <!-- ===================================== -->
+    <!-- PORTADA -->
+    <!-- ===================================== -->
+
+    <section class="hero">
+
+        <div class="hero-box">
+
+            <h2>
+                Descubre el aroma de los pequeños momentos
+            </h2>
+
+            <p>
+                Velas artesanales y wax melts elaborados
+                a mano con ingredientes de calidad.
+            </p>
+
+            <a href="#catalogo" class="hero-boton">
+            Ver catálogo
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- ===================================== -->
+    <!-- PRODUCTOS DESTACADOS -->
+    <!-- ===================================== -->
+
+<section id="catalogo">
+
+    <h2>Nuestros productos</h2>
+
+    <!-- FILTROS -->
+
+    <div class="filtros">
+
+        <button class="filtro activo"
+                onclick="filtrar('todos')">
+            TODOS
+        </button>
+
+        <button class="filtro"
+                onclick="filtrar('wax')">
+            🌸 WAX MELTS
+        </button>
+
+        <button class="filtro"
+                onclick="filtrar('vela')">
+            🕯️ VELAS
+        </button>
+
+    </div>
+
+
+    <!-- ==================== -->
+    <!-- WAX MELTS -->
+    <!-- ==================== -->
+
+    <h3 class="categoria" id="titulo-wax">
+        🌸 Wax Melts
+    </h3>
+
+    <div class="productos wax">
+
+        <!-- ===================================== -->
+        <!-- WAX MELT 01 -->
+        <!-- ===================================== -->
+        <div class="producto wax">
+
+             <!-- esto es para poner el mas vendido/favorito/estaciones  -->
+            <div class="badge bestseller">
+                ⭐ Más vendido
+             </div>
+            <!-- esto es para poner el mas vendido/favorito/estaciones  -->
+
+
+            <img src="img/productos/producto1.png">
+
+            <h3>Ropa Limpia / Spa</h3>
+
+            <p>
+                Aroma fresco y relajante que evoca la sensación de ropa recién lavada y bienestar.
+            </p>
+
+                <!-- TAMAÑO -->
+
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+                <option>
+            50 gramos - 6,50 €
+            </option>
+
+            <option selected>
+            90 gramos - 9,00 €
+             </option>
+
+             </select>
+
+        </div>
+
+
+        <!-- ===================================== -->
+        <!-- WAX MELT 02 -->
+        <!-- ===================================== -->
+        <div class="producto wax">
+
+            <img src="img/productos/diseño de lavanda.jpg">
+
+            <h3>Lavanda</h3>
+
+            <p>
+                Notas florales de lavanda natural que aportan calma, relax y serenidad.
+            </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                50 gramos - 6,50 €
+            </option>
+
+            <option selected>
+                90 gramos - 9,00 €
+            </option>
+
+            </select>
+            
+
+        </div>
+
+
+        <!-- ===================================== -->
+        <!-- WAX MELT 03 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/diseño de nenuco.png">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Nenuco</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Fragancia suave y limpia inspirada en el clásico aroma de bebé.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                50 gramos - 6,50 €
+            </option>
+
+            <option selected>
+                90 gramos - 9,00 €
+            </option>
+
+            </select>
+            
+        </div>
+
+            <!-- ===================================== -->
+        <!-- WAX MELT 04 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/diseño de sandalo.png">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Sandalo</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Aroma cálido y amaderado con un toque elegante y envolvente.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                50 gramos - 6,50 €
+            </option>
+
+            <option selected>
+                90 gramos - 9,00 €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 05 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/diseño de incienso.png">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Incienso</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Fragancia intensa y especiada que crea un ambiente acogedor y espiritual.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                50 gramos - 6,50 €
+            </option>
+
+            <option selected>
+                90 gramos - 9,00 €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 06 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/diseño de chocolate.png">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Chocolate</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Delicioso aroma dulce y cremoso con auténticas notas de cacao.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                50 gramos - 6,50 €
+            </option>
+
+            <option selected>
+                90 gramos - 9,00 €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 07 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/diseño de canela.png">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Canela</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Fragancia cálida y especiada perfecta para crear un ambiente acogedor.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                50 gramos - 6,50 €
+            </option>
+
+            <option selected>
+                90 gramos - 9,00 €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 08 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/diseño de vainilla.png">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Vainilla</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Aroma suave y dulce con notas cálidas y reconfortantes.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                50 gramos - 6,50 €
+            </option>
+
+            <option selected>
+                90 gramos - 9,00 €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 09 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/diselo de galleta.png">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Galleta</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Fragancia dulce y recién horneada que recuerda a galletas caseras.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                50 gramos - 6,50 €
+            </option>
+
+            <option selected>
+                90 gramos - 9,00 €
+            </option>
+
+            </select>
+            
+        </div>
+
+                <!-- ===================================== -->
+        <!-- WAX MELT 10 -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/productos/diseño de cafe.png">
+
+            <!-- NOMBRE DEL AROMA -->
+            <h3>Café</h3>
+
+         <!-- DESCRIPCIÓN -->
+         <p>
+            Aroma intenso a café recién tostado con notas cálidas y envolventes.
+         </p>
+
+            <!-- TAMAÑO -->
+            <label>Tamaño:</label>
+
+            <select class="tamano">
+
+            <option>
+                50 gramos - 6,50 €
+            </option>
+
+            <option selected>
+                90 gramos - 9,00 €
+            </option>
+
+            </select>
+            
+        </div>
+
+        
+        <!-- ===================================== -->
+        <!-- WAX MELT 11 PROXIMAMENTE -->
+        <!-- ===================================== -->
+
+        <div class="producto wax">
+
+            <div class="proximamente">
+                🔜 PRÓXIMAMENTE
+            </div>
+
+                <img src="img/productos/diseño canela y naranja.png">
+
+             <h3>Canela y Naranja</h3>
+
+                 <p>
+                    Nuevo aroma en preparación.
+                </p>
+
+        </div>
+
+
+
+ 
+</div>
+    </div>
+
+ <h3 class="categoria" id="titulo-vela">
+   🕯️ Velas Aromáticas
+    </h3>
+<div class="productos vela">
+
+
+
+    <!-- ===================================== -->
+    <!-- VELA 01 -->
+    <!-- ===================================== -->
+
+
+    <div class="producto vela">
+
+            <img src="img/velas/ALMIZCLE.png">
+
+            <h3>ALMIZCLE</h3>
+
+            <p>
+            Un aroma cálido, elegante y envolvente, con notas suaves y sofisticadas
+            que aportan una sensación de bienestar y confort.✨🌿🕯️           
+            </p>
+
+            <span>
+                12,00 €
+            </span>
+
+         </div>
+
+
+    <!-- ===================================== -->
+    <!-- VELA 02 -->
+    <!-- ===================================== -->
+        <div class="producto vela">
+
+            <img src="img/velas/ANTITABACO.png">
+
+            <h3>ANTITABACO</h3>
+
+            <p>
+              Fragancia fresca y purificante diseñada para neutralizar olores y dejar un ambiente limpio y agradable.✨🌿🏡🕯️
+            </p>
+
+            <span>
+                12,00 €
+            </span>
+
+        </div>
+
+
+    <!-- ===================================== -->
+    <!-- VELA 03 -->
+    <!-- ===================================== -->
+        <div class="producto vela">
+
+            <img src="img/velas/AZAHAR.png">
+
+            <h3>AZAHAR</h3>
+
+            <p>
+                El delicado aroma de la flor de azahar llena cualquier estancia de frescura, calma y un toque mediterráneo.🌸🍊✨🕯️
+            </p>
+
+            <span>
+                12,00 €
+            </span>
+
+        </div>
+
+
+
+    <!-- ===================================== -->
+    <!-- vela 04 -->
+    <!-- ===================================== -->
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/CANELA Y NARANJA.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>CANELA Y NARANAJA</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+               La combinación perfecta entre el toque cítrico de la naranja y la calidez especiada de la canela.
+               Ideal para quienes buscan un aroma envolvente y lleno de personalidad.🍊🪵🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,00 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- vela 05 -->
+    <!-- ===================================== -->
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/CANELA.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>CANELA</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                Fragancia especiada y dulce con el característico aroma cálido de la canela,
+                ideal para cualquier época del año.✨🍂🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                12,00 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- vela 06 -->
+    <!-- ===================================== -->
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/CARAMELO.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>CARAMELO</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                Déjate envolver por el delicioso aroma del caramelo artesanal.
+                Una fragancia cálida, dulce y reconfortante.🍬✨🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                12,00 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- vela 07 -->
+    <!-- ===================================== -->
+
+     <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/VAINILLA.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>VAINILLA</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                Aroma dulce, cremoso y reconfortante que aporta calidez y sensación de hogar.
+                Una fragancia atemporal y acogedora que nunca pasa de moda.✨🤍🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                12,00 €
+            </span>
+
+         </div>
+       
+
+        
+    <!-- ===================================== -->
+    <!-- vela 08 -->
+    <!-- ===================================== -->
+
+        <div class="producto estacional">
+
+            <div class="producto estacional">
+                 ☀️🌴 SOLO EN VERANO
+             </div>
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/CITRONELA.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>CITRONELA</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+               Una fragancia cítrica y revitalizante que aporta sensación de limpieza, bienestar y frescura al hogar.
+               Perfecta para acompañar las tardes y noches de verano. 🌿☀️🕯️ 
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                12,00 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- vela 09 -->
+    <!-- ===================================== -->
+
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/COOKIE.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>COOKIE</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                Aroma irresistible a galletas recién horneadas, dulce, cálido y muy acogedor.
+                Sus notas dulces y envolventes crean una atmósfera acogedora, cálida y llena de recuerdos especiales. ✨🍪🏡🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                12,00 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- VELA 10 -->
+    <!-- ===================================== -->
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/FRUTOS DEL BOSQUE.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>FRUTOS DEL BOSQUE</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                Una fragancia afrutada, fresca y vibrante que combina notas de frutos rojos 
+                para crear un ambiente acogedor, elegante y lleno de personalidad. ✨🍇🫐🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                12,00 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- VELA 11 -->
+    <!-- ===================================== -->
+
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/INCIENSO.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>INCIENSO</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                Fragancia cálida y envolvente con las notas tradicionales del incienso, 
+                ideal para crear ambientes relajantes, acogedores y llenos de serenidad.
+                ✨🌿🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,00 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- VELA 12 -->
+    <!-- ===================================== -->
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/LAVANDA.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>LAVANDA</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                El aroma relajante por excelencia, ideal para aportar calma y bienestar al hogar.✨💜🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,00 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- VELA 13 -->
+    <!-- ===================================== -->
+
+        <div class="producto vela limitado">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/MANZANA VERDE.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>MANZANA VERDE</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                Fragancia fresca, afrutada y ligeramente ácida que aporta sensación de limpieza y vitalidad.🍏✨🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                12,00 €
+            </span>
+
+            <p class="aviso">
+                ⚠️ Solo quedan 3 unidades disponibles
+            </p>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- VELA 14 -->
+    <!-- ===================================== -->
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/N1 HOMBRE, HUGO BOSS GREY.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>N1-HOMBRE</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                Le Male de Jean Paul Gaultier, perfume icónico con aroma fresco, calido y avinillado al secar.🧴💎✨
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,95 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- VELA 15 -->
+    <!-- ===================================== -->
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/N1 MUJER, N5 CHANEL.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>N1-MUJER</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                DKNY Be Delicious women eau de parfum, aroma juvenil, luminoso y con notas de manzana verde y cítricos.🧴💎✨
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,95 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- VELA 16 -->
+    <!-- ===================================== -->
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/N27 HOMBRE, ONE MILLION PACO RABANNE.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>N27-HOMBRE</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                Tom Ford Tobacco Vanille, dulce, calido y con notas de tabaco, vainilla, cacao y especias.🧴💎✨
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,95 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- VELA 17 -->
+    <!-- ===================================== -->
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/N2 MUJER, AIRE DE LOEWE.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>N2-MUJER</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                ELIZABETH ARDEN GREEN TEA, fragancia fresca, limpia y luminosa.🧴💎✨
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,95 €
+            </span>
+
+        </div>
+
+        
+    <!-- ===================================== -->
+    <!-- VELA 18 -->
+    <!-- ===================================== -->
+    
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/N2 HOMBRE, ESSENCIA DE LOEWE.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>N2-HOMBRE</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                ONE MILLION PACO RABANNE, explosión fresca, cítrica y con toques de canela.🧴💎✨
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,95 €
+            </span>
+
+     </div>
+
+
+        
+    <!-- ===================================== -->
+    <!-- VELA 19 -->
+    <!-- ===================================== -->
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/N10 MUJER, CLASSIQUE JEAN PAUL GAULTIER.png">🧴💎✨
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>N10-MUJER</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                LANCOME TRESOR EAU DE PARFUM, femenino, elegante y romántico.
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,95 €
+            </span>
+
+        </div>
+
+        
+    <!-- ===================================== -->
+    <!-- VELA 20 -->
+    <!-- ===================================== -->
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/S╡NDALO.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>SANDALO</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+               Una fragancia envolvente 
+               y relajante que transforma cualquier espacio en un refugio de calma y bienestar. ✨🌳🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                12,00 €
+            </span>
+
+        </div>
+        
+    <!-- ===================================== -->
+    <!-- VELA 21 -->
+    <!-- ===================================== -->
+       <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/ROPA LIMPIA.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>ROPA LIMPIA</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                Una fragancia fresca, elegante y duradera que transforma cualquier espacio en un auténtico hogar.
+                Perfecta para quienes buscan sensación de limpieza y bienestar. 🧺✨🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,00 €
+            </span>
+
+        </div>
+
+        
+    <!-- ===================================== -->
+    <!-- VELA 22 -->
+    <!-- ===================================== -->
+         <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/PALO SANTO.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>PALO SANTO</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                esta fragancia combina notas amaderadas y cálidas con un toque suave y envolvente, 
+                creando una atmósfera de serenidad, equilibrio y confort. Perfecta para transformar 
+                cualquier espacio en un refugio de calma. ✨🌳🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,00 €
+            </span>
+
+        </div>
+
+        
+    <!-- ===================================== -->
+    <!-- VELA 23 -->
+    <!-- ===================================== -->
+
+        <div class="producto vela">
+
+            <!-- FOTO DEL PRODUCTO -->
+            <img src="img/velas/NENUCO.png">
+
+            <!-- NOMBRE DE LA VELA -->
+            <h3>NENUCO</h3>
+
+            <!-- DESCRIPCIÓN -->
+            <p>
+                Inspirada en el icónico aroma Nenuco, esta vela combina frescura, 
+                limpieza y suavidad en una fragancia atemporal que evoca recuerdos, 
+                tranquilidad y la sensación de un hogar acogedor. ✨🧴🕯️
+            </p>
+
+            <!-- PRECIO -->
+            <span>
+                14,00 €
+            </span>
+
+        </div>
+    
+
+
+
+</div>
+
+
+
+</section>
+
+    <!-- ===================================== -->
+    <!-- QUIÉNES SOMOS -->
+    <!-- ===================================== -->
+<section class="historia">
+
+    <div class="historia-container">
+
+    
+
+        <h1>CONOCENOS UN POCO MÁS</h1>
+
+        <p class="intro">
+            <strong>Hola, soy Sara.👋 </strong> 
+        <p>
+            Todo comenzó con una pasión: crear velas capaces de transformar cualquier rincón en un lugar lleno de calma, bienestar y personalidad. Lo que empezó como un simple hobby fue creciendo poco a poco hasta convertirse en el proyecto con el que siempre había soñado.
+        </p>
+
+        <p>
+            Desde nuestro pequeño taller en el <strong>Grao de Castellón</strong>, elaboro cada vela de forma artesanal utilizando cera de soja. Cada una se prepara con paciencia, dedicación y mucho cariño, cuidando cada detalle para que llegue a tus manos con la calidad que merece.
+        </p>
+
+        <p>
+            Siempre he pensado que una vela es mucho más que un aroma. Puede acompañarte mientras disfrutas de un momento de tranquilidad, crear el ambiente perfecto para una ocasión especial o convertir un día cualquiera en un recuerdo inolvidable. Por eso en Llesa Candles encontrarás una gran variedad de fragancias, porque cada persona y cada momento son únicos.
+        </p>
+
+        <p>
+            Aunque muchas veces me veas solo a mí en los vídeos o detrás de la pantalla, este camino no lo recorro sola. Mi familia ha estado a mi lado desde el primer día, apoyándome y ayudándome a hacer realidad este sueño. Gracias a ellos y a todas las personas que confiáis en Llesa Candles, este proyecto sigue creciendo cada día.
+        </p>
+
+        <p>
+            Gracias por formar parte de esta historia y por permitirme llevar un pedacito de ilusión y calidez hasta tu hogar. Espero que, cada vez que enciendas una de nuestras velas, sientas el mismo cariño con el que fue creada.
+        </p>
+
+        <blockquote>
+            Porque las mejores historias empiezan con una pequeña llama. 🔥🕯️
+        </blockquote>
+
+    </div>
+
+</section>
+
+
+        <!-- ===================================== -->
+                 <!-- PERSONALIZADAS -->
+        <!-- ===================================== -->
+        <!-- AÑADIR AQUÍ FUTURAS COMUNIONES, BODAS,
+        BAUTIZOS Y EVENTOS -->
+        <!-- ===================================== -->
+
+<section id="personalizadas">
+
+    <h2>Velas personalizadas</h2>
+
+    <p class="texto-personalizadas">
+        Creamos velas y detalles personalizados para
+        bautizos, comuniones, bodas, cumpleaños y eventos especiales.
+        Aquí os mostramos algunos de nuestros trabajos realizados.
+    </p>
+
+    <div class="galeria-personalizadas">
+
+        <!-- TRABAJO 1 - COMUNIÓN -->
+
+        <div class="trabajo">
+
+            <img src="img/Personalizadas/per1.jpeg">
+
+            <h3>Detalles para Comunión</h3>
+
+            <p>
+                Velas artesanales personalizadas realizadas
+                para una celebración de comunión.
+            </p>
+
+        </div>
+
+        <!-- TRABAJO 2 - BAUTIZO-->
+
+        <div class="trabajo">
+
+            <img src="img/Personalizadas/per2.jpeg">
+
+            <h3>Detalles para Bautizos</h3>
+
+            <p>
+               
+                Velas artesanales personalizadas realizadas
+                para una celebración de bautizos.           
+            
+            </p>
+
+        </div>
+        
+
+    </div>
+
+</section>
+
+
+    <!-- ===================================== -->
+    <!-- OPINIONES -->
+    <!-- ===================================== -->
+
+    <section id="opiniones">
+
+        <h2>Opiniones</h2>
+
+        <div class="review">
+
+            ⭐⭐⭐⭐⭐
+
+            <p>
+                "Huelen increíble y duran muchísimo."
+            </p>
+
+        </div>
+
+        <div class="review">
+
+            ⭐⭐⭐⭐⭐
+
+            <p>
+                "El mejor aroma a ropa limpia."
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===================================== -->
+    <!-- FAQ -->
+    <!-- ===================================== -->
+
+    <section id="faq">
+
+        <h2>Preguntas frecuentes</h2>
+
+        <details>
+            <summary>
+                ¿Las velas son naturales?
+            </summary>
+
+            <p>
+                Sí, utilizamos cera de soja.
+            </p>
+        </details>
+
+        <details>
+            <summary>
+                ¿Realizáis envíos?
+            </summary>
+
+            <p>
+                Sí, realizamos envíos nacionales.
+            </p>
+        </details>
+
+    </section>
+
+
+    <!-- ===================================== -->
+    <!-- CONTACTO -->
+    <!-- ===================================== -->
+
+<section id="contacto">
+
+    <h2>Contacto</h2>
+
+    <div class="contacto-card">
+
+        <p>
+            📞 <strong>WhatsApp:</strong>
+            <a href="https://wa.me/34642931215">
+                +34 642 931 215
+            </a>
+        </p>
+
+        <p>
+            📸 <strong>Instagram:</strong>
+            <a href="https://instagram.com/llesacandles_">
+                @llesacandles_
+            </a>
+        </p>
+
+        <hr>
+
+        <h3>
+            🕒 Horario de atención al cliente
+        </h3>
+
+        <p>
+            <strong>Lunes a Viernes:</strong><br>
+            10:00 - 14:00<br>
+            16:00 - 19:00
+        </p>
+
+        <p>
+            <strong>Sábados:</strong><br>
+            10:00 - 13:00
+        </p>
+
+        <p>
+            <strong>Domingos y festivos:</strong><br>
+            Cerrado
+        </p>
+
+        <p class="nota">
+            Intentamos responder a todos los mensajes
+            en menos de 24 horas.
+        </p>
+
+    </div>
+
+</section>
+
+    <!-- ===================================== -->
+    <!-- FOOTER -->
+    <!-- ===================================== -->
+
+    <footer>
+
+        © 2026 Llesa Candles
+
+    </footer>
+
+    <a href="https://wa.me/34642931215?text=Hola,%20me%20gustaría%20información%20sobre%20Llesa%20Candles"
+   class="whatsapp"  target="_blank">
+
+    💬
+    </a>
+    
+<script src="script.js"></script>
+    
+</body>
+</html>
